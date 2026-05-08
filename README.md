@@ -49,3 +49,17 @@ Magrathean UK works where AI adoption meets the systems that make it safe to run
 ## Working Style
 
 Ship useful systems, keep data close to the owner, prefer direct infrastructure over unnecessary control planes, and make AI workflows prove themselves against real repos, real commands, real tests, and real review.
+
+## Legal
+
+Copyright © 2026 Magrathean UK Ltd. All rights reserved.
+
+This repository is the GitHub organisation profile for Magrathean UK Ltd. The contents of this repository are proprietary; see [`LICENSE`](./LICENSE) for the full notice. Each individual product or codebase listed above is governed by its own licence — consult the `LICENSE` or `LICENSE.md` file in the relevant product repository.
+
+"Magrathean", "Magrathean UK", "Teslatlas", "Termex", "Nodex", "Finex UK", "Capturex", "FindR", "Newsex", "ViceDen", "Teslacam", "Codexex", and "auditex" are trade marks or unregistered trade marks of Magrathean UK Ltd. and may not be used to imply affiliation, endorsement, or sponsorship without prior written permission. References on this profile to third-party trade marks (Apple, Microsoft, Tesla, OpenAI, Linux, Rust, and others) are for descriptive purposes only and remain the property of their respective owners. Magrathean UK Ltd. is not affiliated with, endorsed by, or sponsored by any of those third parties.
+
+For licensing or commercial enquiries, email <contact@magrathean.uk>.
+
+---
+
+Magrathean UK Ltd. is a company registered in England and Wales (Company No. 16955343) with registered office at 16 Caledonian Court West Street, Watford, England, WD17 1RY.
