@@ -33,10 +33,10 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 - <img src="./assets/icons/auditex.png" width="22" height="22" alt=""> [auditex](https://github.com/magrathean-uk/auditex) - open-source local tenant audit evidence toolkit.
 - <img src="./assets/icons/codexex.png" width="22" height="22" alt=""> [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS Codex quota companion with helper-based sign-in and local usage history.
 - <img src="./assets/icons/teslacam.png" width="22" height="22" alt=""> [Teslacam](https://github.com/magrathean-uk/Teslacam) - native macOS app and Python CLI for browsing and exporting TeslaCam footage.
-- <img src="./assets/icons/asc-cli.png" width="22" height="22" alt=""> [asc-cli](https://github.com/magrathean-uk/asc-cli) - App Store Connect from the terminal and from agents.
-- <img src="./assets/icons/asc-screens.png" width="22" height="22" alt=""> [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
-- <img src="./assets/icons/hostmap.png" width="22" height="22" alt=""> [hostmap](https://github.com/magrathean-uk/hostmap) - public host mapping utility work.
-- <img src="./assets/icons/rustic.png" width="22" height="22" alt=""> [rustic](https://github.com/magrathean-uk/rustic) - fast, encrypted, deduplicated backup tooling.
+- [asc-cli](https://github.com/magrathean-uk/asc-cli) - App Store Connect from the terminal and from agents.
+- [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
+- [hostmap](https://github.com/magrathean-uk/hostmap) - public host mapping utility work.
+- [rustic](https://github.com/magrathean-uk/rustic) - fast, encrypted, deduplicated backup tooling.
 - <img src="./assets/icons/teslatlas-android.png" width="22" height="22" alt=""> [Teslatlas-Android](https://github.com/magrathean-uk/Teslatlas-Android) - Android companion work for TeslaMate analytics.
 - <img src="./assets/icons/termex-android.png" width="22" height="22" alt=""> [Termex-Android](https://github.com/magrathean-uk/Termex-Android) - Android SSH client work around terminal-first server access.
 - <img src="./assets/icons/nodex-android.png" width="22" height="22" alt=""> [Nodex-Android](https://github.com/magrathean-uk/Nodex-Android) - Android Linux server monitoring over SSH.
