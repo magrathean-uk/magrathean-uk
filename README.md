@@ -24,9 +24,9 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - <img src="./assets/icons/auditex.png" width="22" height="22" alt=""> **[Auditex](https://auditex.hu)** - open-source Python CLI and MCP toolkit for local Microsoft 365 and Google Workspace tenant audit evidence. [Source](https://github.com/magrathean-uk/auditex) / [site repo](https://github.com/magrathean-uk/auditex.hu)
 - <img src="./assets/icons/codexex.png" width="22" height="22" alt=""> **[Codexex](https://codexex.eu)** - Codex and Spark quota tracking on Mac, iPhone, and iPad. [Source](https://github.com/magrathean-uk/Codexex) / [site repo](https://github.com/magrathean-uk/codexex.eu)
-- <img src="./assets/icons/teslatlas.png" width="22" height="22" alt=""> **[Teslatlas](https://teslatlas.eu)** - local-first TeslaMate analytics, route replay, charge diagnostics, and battery insight. [site repo](https://github.com/magrathean-uk/teslatlas.eu)
-- <img src="./assets/icons/termex.png" width="22" height="22" alt=""> **[Termex](https://termexapp.eu)** - tmux-backed SSH, SFTP transfer, jump hosts, port forwarding, and session continuity. [site repo](https://github.com/magrathean-uk/termexapp.eu)
-- <img src="./assets/icons/nodex.png" width="22" height="22" alt=""> **[Nodex](https://nodexapp.eu)** - Linux host monitoring over SSH for metrics, services, containers, alerts, and local history. [site repo](https://github.com/magrathean-uk/nodexapp.eu)
+- <img src="./assets/icons/teslatlas.png" width="22" height="22" alt=""> **[Teslatlas](https://teslatlas.eu)** - local-first TeslaMate analytics, route replay, charge diagnostics, and battery insight. [Source](https://github.com/magrathean-uk/teslatlas) / [site repo](https://github.com/magrathean-uk/teslatlas.eu)
+- <img src="./assets/icons/termex.png" width="22" height="22" alt=""> **[Termex](https://termexapp.eu)** - tmux-backed SSH, SFTP transfer, jump hosts, port forwarding, and session continuity. [Source](https://github.com/magrathean-uk/Termex) / [site repo](https://github.com/magrathean-uk/termexapp.eu)
+- <img src="./assets/icons/nodex.png" width="22" height="22" alt=""> **[Nodex](https://nodexapp.eu)** - Linux host monitoring over SSH for metrics, services, containers, alerts, and local history. [Source](https://github.com/magrathean-uk/Nodex) / [site repo](https://github.com/magrathean-uk/nodexapp.eu)
 
 ## Apps And Product Work
 
@@ -44,6 +44,9 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - <img src="./assets/icons/auditex.png" width="22" height="22" alt=""> [auditex](https://github.com/magrathean-uk/auditex) - open-source local tenant audit evidence toolkit.
 - <img src="./assets/icons/codexex.png" width="22" height="22" alt=""> [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS Codex quota companion with helper-based sign-in and local usage history.
+- <img src="./assets/icons/teslatlas.png" width="22" height="22" alt=""> [Teslatlas](https://github.com/magrathean-uk/teslatlas) - local-first TeslaMate analytics with SwiftUI and Rust data work.
+- <img src="./assets/icons/termex.png" width="22" height="22" alt=""> [Termex](https://github.com/magrathean-uk/Termex) - iOS SSH client with tmux continuity, SFTP, jump hosts, and port forwarding.
+- <img src="./assets/icons/nodex.png" width="22" height="22" alt=""> [Nodex](https://github.com/magrathean-uk/Nodex) - iOS Linux server monitoring and operational controls over SSH.
 - <img src="./assets/icons/teslacam.png" width="22" height="22" alt=""> [Teslacam](https://github.com/magrathean-uk/Teslacam) - native macOS app and Python CLI for browsing and exporting TeslaCam footage.
 - <img src="./assets/icons/asc-cli.png" width="22" height="22" alt=""> [asc-cli](https://github.com/magrathean-uk/asc-cli) - App Store Connect from the terminal and from agents.
 - <img src="./assets/icons/asc-screens.png" width="22" height="22" alt=""> [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
