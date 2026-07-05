@@ -31,6 +31,7 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - [api-recipes](https://github.com/magrathean-uk/api-recipes) - local API-call recipes for coding agents, with Codex Skill, CLI, and MCP adapters.
 - [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
+- [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - Python pipeline for assembling a local Icons8 Liquid Glass icon pack: crawl, map, download SVG masters, recolor, and render PNGs.
 
 ### Infrastructure, security & data
 
