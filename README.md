@@ -2,7 +2,7 @@
 
 Practical AI adoption, Microsoft 365 cleanup, security work, and shipped software.
 
-Magrathean UK builds small, direct systems for teams that need useful AI, cleaner Microsoft 365 estates, local-first apps, and operator-owned infrastructure. The public work here is the visible edge of a wider product stack across Apple platforms, Android, Linux operations, coding-agent tooling, tenant audit evidence, App Store automation, and local-first data workflows.
+Magrathean UK builds small, direct systems for teams that need useful AI, cleaner Microsoft 365 estates, local-first apps, and operator-owned infrastructure. The public work here is the visible edge of a wider product stack across Apple platforms, Linux operations, coding-agent tooling, tenant audit evidence, App Store automation, and local-first data workflows.
 
 ## Company
 
@@ -25,11 +25,9 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - [Teslacam](https://github.com/magrathean-uk/Teslacam) - native macOS app and Python CLI for browsing and exporting TeslaCam footage.
 - [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS companion for Codex quota tracking, with helper-based sign-in and local usage history.
-- [finexUK](https://github.com/magrathean-uk/finexUK) - SwiftUI iOS app for UK benefit estimation with local rules, LHA lookup, and privacy-first storage.
 
 ### Coding-agent & developer tooling
 
-- [api-recipes](https://github.com/magrathean-uk/api-recipes) - local API-call recipes for coding agents, with Codex Skill, CLI, and MCP adapters.
 - [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
 - [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - Python pipeline for assembling a local Icons8 Liquid Glass icon pack: crawl, map, download SVG masters, recolor, and render PNGs.
 
@@ -37,14 +35,6 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - [auditex](https://github.com/magrathean-uk/auditex) - open-source local tenant audit evidence toolkit for Microsoft 365 and Google Workspace.
 - [hostmap](https://github.com/magrathean-uk/hostmap) - read-only Linux host architecture mapping, producing Markdown and JSON evidence for reviewers, operators, and AI agents.
-- [Newsex](https://github.com/magrathean-uk/Newsex) - Debian signal desk for fetching, clustering, rendering, and emailing news digests.
-- [Stockex](https://github.com/magrathean-uk/Stockex) - TypeScript watchlist and alert desk with deterministic fixtures and provider-ready market data.
-
-### Android companions
-
-- [Teslatlas-Android](https://github.com/magrathean-uk/Teslatlas-Android) - Android companion for local-first TeslaMate analytics.
-- [Termex-Android](https://github.com/magrathean-uk/Termex-Android) - Android SSH client for terminal-first server access.
-- [Nodex-Android](https://github.com/magrathean-uk/Nodex-Android) - Android Linux server monitoring over SSH.
 
 ## Working Style
 
