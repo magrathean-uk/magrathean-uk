@@ -15,7 +15,7 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - **[Auditex](https://auditex.hu)** - open-source Python CLI and MCP toolkit for local Microsoft 365 and Google Workspace tenant audit evidence.
 - **[Codexex](https://codexex.eu)** - Codex and Spark quota tracking on Mac, iPhone, and iPad.
-- **[Teslatlas](https://teslatlas.eu)** - local-first TeslaMate analytics, route replay, charge diagnostics, and battery insight.
+- **[Teslatlas](https://teslatlas.eu)** - an independent, local-first Apple app compatible with separately installed TeslaMate and MyTeslaMate data sources. It reads history without writing back or controlling the vehicle and is not affiliated with or endorsed by the TeslaMate project.
 - **[Termex](https://termexapp.eu)** - tmux-backed SSH, SFTP transfer, jump hosts, port forwarding, and session continuity.
 - **[Nodex](https://nodexapp.eu)** - agentless Linux host monitoring over SSH for metrics, services, containers, alerts, and local history.
 
