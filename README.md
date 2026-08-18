@@ -44,7 +44,7 @@ Ship useful systems, keep data close to the owner, prefer direct infrastructure 
 
 ## 📈 3D Contribution Graph
 
-![3D Contribution Graph](profile-3d-contrib/profile-gitblock.svg)
+![3D Contribution Graph](profile-3d-contrib/profile-season-animate.svg)
 
 ## Legal
 
