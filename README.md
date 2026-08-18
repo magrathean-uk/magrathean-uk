@@ -42,12 +42,9 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 Ship useful systems, keep data close to the owner, prefer direct infrastructure over unnecessary control planes, and make AI workflows prove themselves against real repos, real commands, real tests, and real review.
 
-## 📈 Stats
+## 📈 3D Contribution Graph
 
-![Followers](https://img.shields.io/github/followers/magrathean-uk?logo=github&label=followers)
-![Stars](https://img.shields.io/github/stars/magrathean-uk?affiliations=OWNER&logo=github&label=stars)
-
-![Metrics](github-metrics.svg)
+![3D Contribution Graph](profile-3d-contrib/profile-gitblock.svg)
 
 ## Legal
 

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "magrathean-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "../magrathean/site", "run", "dev"],
+      "port": 3005
+    }
+  ]
+}
