@@ -15,7 +15,7 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 - **[Auditex](https://auditex.hu)** - open-source Python CLI and MCP toolkit for local Microsoft 365 and Google Workspace tenant audit evidence.
 - **[Codexex](https://codexex.eu)** - Codex and Spark quota tracking on Mac, iPhone, and iPad.
-- **[Teslatlas](https://github.com/magrathean-uk/teslatlas-app)** ([site](https://teslatlas.eu)) - an independent, local-first Apple app compatible with separately installed TeslaMate and MyTeslaMate data sources. It reads history without writing back or controlling the vehicle and is not affiliated with or endorsed by the TeslaMate project. The public GitHub repo is legal, privacy, App Store, and progress documentation; application source is not published.
+- **[Teslatlas](https://github.com/magrathean-uk/teslatlas-app)** ([site](https://teslatlas.eu)) - an independent, local-first Apple app compatible with separately installed TeslaMate and MyTeslaMate data sources. It reads history without writing back or controlling the vehicle and is not affiliated with or endorsed by the TeslaMate project. Application source is not published.
 - **[Termex](https://termexapp.eu)** - tmux-backed SSH, SFTP transfer, jump hosts, port forwarding, and session continuity.
 - **[Nodex](https://nodexapp.eu)** - agentless Linux host monitoring over SSH for metrics, services, containers, alerts, and local history.
 
@@ -23,7 +23,7 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 ### Apps - macOS & iOS
 
-- [Teslatlas](https://github.com/magrathean-uk/teslatlas-app) - public legal, privacy, App Store, and progress documentation for the Teslatlas iOS app. Application source is not published.
+- [Teslatlas](https://github.com/magrathean-uk/teslatlas-app) - public product page, privacy, terms, and support for the Teslatlas iOS app. Application source is not published.
 - [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) - independent one-car Tesla telemetry collector and local data hub in Rust for macOS.
 - [Teslacam](https://github.com/magrathean-uk/Teslacam) - native macOS app and Python CLI for browsing and exporting TeslaCam footage.
 - [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS companion for Codex quota tracking, with helper-based sign-in and local usage history.
