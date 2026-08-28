@@ -23,20 +23,25 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 
 ### Apps - macOS & iOS
 
-- [Teslatlas](https://github.com/magrathean-uk/teslatlas-app) - public product page, privacy, terms, and support for the Teslatlas iOS app. Application source is not published.
-- [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) - independent one-car Tesla telemetry collector and local data hub in Rust for macOS.
-- [Teslacam](https://github.com/magrathean-uk/Teslacam) - native macOS app and Python CLI for browsing and exporting TeslaCam footage.
+- [Teslatlas](https://github.com/magrathean-uk/teslatlas-app) - public product page, privacy, terms, and support for the Teslatlas Apple app. Application source is not published.
+- [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) - self-hosted Tesla telemetry collector and local sync hub in Rust for macOS and Linux.
+- [Teslacam](https://github.com/magrathean-uk/Teslacam) - native Apple app and cross-platform Python CLI for browsing and exporting TeslaCam footage.
 - [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS companion for Codex quota tracking, with helper-based sign-in and local usage history.
 
 ### Coding-agent & developer tooling
 
 - [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
-- [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - Python pipeline for assembling a local Icons8 Liquid Glass icon pack: crawl, map, download SVG masters, recolor, and render PNGs.
+- [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - licensed account-holder workflow for mapping, downloading, recolouring, and rendering local Icons8 asset packs.
 
 ### Infrastructure, security & data
 
 - [auditex](https://github.com/magrathean-uk/auditex) - open-source local tenant audit evidence toolkit for Microsoft 365 and Google Workspace.
 - [hostmap](https://github.com/magrathean-uk/hostmap) - read-only Linux host architecture mapping, producing Markdown and JSON evidence for reviewers, operators, and AI agents.
+- [unplugged-speaker](https://github.com/magrathean-uk/unplugged-speaker) - small macOS LaunchAgent that disconnects one Bluetooth speaker on battery power and reconnects it on AC.
+
+### In development
+
+- [BMW Atlas Hub](https://github.com/magrathean-uk/bmwatlas-hub) - design-stage, self-hosted BMW telemetry hub. The repository currently documents the intended boundary; it does not yet contain a runnable collector.
 
 ## Working Style
 
@@ -52,7 +57,7 @@ Copyright (c) 2026 Magrathean UK Ltd. All rights reserved.
 
 This repository is the GitHub profile for Magrathean UK Ltd. The contents of this repository are proprietary; see [`LICENSE`](./LICENSE) for the full notice. Each individual product or codebase listed above is governed by its own licence - consult the `LICENSE` or `LICENSE.md` file in the relevant product repository.
 
-The Magrathean UK name and the product and project names shown on this profile are trade marks or unregistered trade marks of Magrathean UK Ltd. and may not be used to imply affiliation, endorsement, or sponsorship without prior written permission. References on this profile to third-party trade marks (Apple, Microsoft, Tesla, OpenAI, Linux, Rust, and others) are for descriptive purposes only and remain the property of their respective owners. Magrathean UK Ltd. is not affiliated with, endorsed by, or sponsored by any of those third parties.
+The Magrathean UK name and the product and project names shown on this profile are trade marks or unregistered trade marks of Magrathean UK Ltd. and may not be used to imply affiliation, endorsement, or sponsorship without prior written permission. References on this profile to third-party trade marks (Apple, Microsoft, Tesla, BMW, OpenAI, Linux, Rust, and others) are for descriptive purposes only and remain the property of their respective owners. Magrathean UK Ltd. is not affiliated with, endorsed by, or sponsored by any of those third parties.
 
 For licensing or commercial enquiries, email <contact@magrathean.uk>.
 
