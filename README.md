@@ -19,29 +19,48 @@ Magrathean UK builds small, direct systems for teams that need useful AI, cleane
 - **[Termex](https://termexapp.eu)** - tmux-backed SSH, SFTP transfer, jump hosts, port forwarding, and session continuity.
 - **[Nodex](https://nodexapp.eu)** - agentless Linux host monitoring over SSH for metrics, services, containers, alerts, and local history.
 
-## Public Code
+## All Public Repositories
 
-### Apps - macOS & iOS
+This is the complete public repository index for the `magrathean-uk` account.
+Private repositories are intentionally omitted.
 
-- [Teslatlas](https://github.com/magrathean-uk/teslatlas-app) - public product page, privacy, terms, and support for the Teslatlas Apple app. Application source is not published.
-- [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) - self-hosted Tesla telemetry collector and local sync hub in Rust for macOS and Linux.
-- [Teslacam](https://github.com/magrathean-uk/Teslacam) - native Apple app and cross-platform Python CLI for browsing and exporting TeslaCam footage.
-- [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS companion for Codex quota tracking, with helper-based sign-in and local usage history.
+### Profile, governance & shared standards
 
-### Coding-agent & developer tooling
+- [.github](https://github.com/magrathean-uk/.github) - organization-wide community health, security policy, and governance standards.
+- [magrathean-uk](https://github.com/magrathean-uk/magrathean-uk) - this profile and product index.
+
+### Applications, operations & developer tooling
 
 - [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
-- [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - licensed account-holder workflow for mapping, downloading, recolouring, and rendering local Icons8 asset packs.
+- [auditex](https://github.com/magrathean-uk/auditex) - open-source Python CLI and MCP toolkit for local Microsoft 365 and Google Workspace tenant audit evidence.
+- [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS Codex quota companion with helper-based sign-in and local usage history.
+- [hostmap](https://github.com/magrathean-uk/hostmap) - safe, read-only architecture and evidence mapping for Linux hosts.
+- [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - local Icons8 asset-pack mapping, downloading, recolouring, and rendering pipeline.
+- [srt-transcribe](https://github.com/magrathean-uk/srt-transcribe) - English SRT subtitle generation from media using OpenAI transcription.
+- [Teslacam](https://github.com/magrathean-uk/Teslacam) - native macOS app and Python CLI for browsing and exporting TeslaCam footage.
+- [uncordex](https://github.com/magrathean-uk/uncordex) - native macOS control for disconnecting and restoring a Bluetooth speaker with a saved desk setup.
+- [vulnerability-operations-hub](https://github.com/magrathean-uk/vulnerability-operations-hub) - vulnerability tracking, remediation, accepted-risk workflows, and reporting datasets.
+- [xauex](https://github.com/magrathean-uk/xauex) - XAUUSD signal and cTrader demo-execution runtime with risk gates, evidence, and operator dashboard.
 
-### Infrastructure, security & data
+### Teslatlas ecosystem
 
-- [auditex](https://github.com/magrathean-uk/auditex) - open-source local tenant audit evidence toolkit for Microsoft 365 and Google Workspace.
-- [hostmap](https://github.com/magrathean-uk/hostmap) - read-only Linux host architecture mapping, producing Markdown and JSON evidence for reviewers, operators, and AI agents.
-- [unplugged-speaker](https://github.com/magrathean-uk/unplugged-speaker) - small macOS LaunchAgent that disconnects one Bluetooth speaker on battery power and reconnects it on AC.
+- [teslatlas-app](https://github.com/magrathean-uk/teslatlas-app) - public product page, privacy, terms, and support for the Teslatlas Apple app; application source is not published.
+- [teslatlas-edge](https://github.com/magrathean-uk/teslatlas-edge) - user-operated Fleet Telemetry ingress for Teslatlas Hub.
+- [teslatlas-home-assistant](https://github.com/magrathean-uk/teslatlas-home-assistant) - Home Assistant integration for the public Teslatlas Hub protocol.
+- [teslatlas-hub](https://github.com/magrathean-uk/teslatlas-hub) - self-hosted multi-vehicle Tesla telemetry collector and local sync hub for macOS and Debian.
+- [teslatlas-protocol](https://github.com/magrathean-uk/teslatlas-protocol) - public protocol contracts, schemas, fixtures, and compatibility rules.
+- [teslatlas-sdk-swift](https://github.com/magrathean-uk/teslatlas-sdk-swift) - Swift client SDK for the public Teslatlas Hub protocol.
+- [teslatlas-sdk-typescript](https://github.com/magrathean-uk/teslatlas-sdk-typescript) - TypeScript client SDK for the public Teslatlas Hub protocol.
+- [teslatlas-viewer](https://github.com/magrathean-uk/teslatlas-viewer) - minimal reference client for the public Teslatlas Hub protocol.
 
-### In development
+### BMW
 
-- [BMW Atlas Hub](https://github.com/magrathean-uk/bmwatlas-hub) - design-stage, self-hosted BMW telemetry hub. The repository currently documents the intended boundary; it does not yet contain a runnable collector.
+- [bmwatlas-hub](https://github.com/magrathean-uk/bmwatlas-hub) - design-stage, self-hosted BMW telemetry hub; the repository documents the intended boundary and does not yet contain a runnable collector.
+
+### Public forks
+
+- [rustic](https://github.com/magrathean-uk/rustic) - public fork of the fast, encrypted, deduplicated Rust backup tool.
+- [rustic_core](https://github.com/magrathean-uk/rustic_core) - public fork of the library powering rustic-rs.
 
 ## Working Style
 
