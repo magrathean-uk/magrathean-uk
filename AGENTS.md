@@ -1,29 +1,20 @@
 # Repository guide
 
-## Scope
+This repository holds the Magrathean UK GitHub profile and public project index. It contains Markdown, artwork, and a contribution-graph workflow, with no application package or local build command.
 
-- This repository renders the `magrathean-uk` GitHub organisation profile.
-- `README.md` is the public profile; `assets/icons/` contains supporting product artwork.
+Complete authorized work and the necessary safe local steps through the relevant checks. Make routine decisions without repeated permission requests. Use bounded delegation for independent work when it helps, with clear ownership.
 
-## Checks
+## Editing boundaries
 
-- Run `git diff --check` before committing.
-- Preview `README.md` as GitHub-flavoured Markdown and verify every public link.
+- Keep `README.md` focused on the public company and project index. Verify that each listed repository and product link is publicly reachable before adding it.
+- Describe product status from its own current public documentation. Do not infer source availability, readiness, or licence terms from a repository name.
+- Preserve exact legal grants, ownership notices, attribution, and the safe-harbour terms in `SECURITY.md`. See [license.md](license.md) and [TRADEMARKS.md](TRADEMARKS.md).
+- Keep private projects, credentials, internal infrastructure, and unreleased work out of public content.
+- Treat `profile-3d-contrib/` and `github-metrics.svg` as generated assets. Do not regenerate them for a prose edit. Keep workflow changes relevant to the task.
+- `.claude/launch.json` targets a sibling website. It is not a preview command for this repository.
 
-## Rules
+## Validation
 
-- List only current public products and repositories.
-- Keep company, legal, privacy, and licensing claims exact.
-- Do not publish private repositories, internal infrastructure, credentials, or unreleased work.
+Run `git diff --check` for working-tree edits. Preview changed Markdown, check relative links and images, and open changed public links without relying on a signed-in account. Record any unavailable link instead of claiming it was verified.
 
-## Working guidance — GPT-6 Astra
-
-Based on [OpenAI's Astra prompting guidance](https://developers.openai.com/api/docs/guides/latest-model#prompting-best-practices), reviewed 2026-09-19. These are working instructions, not a change to model or API settings.
-
-- Complete the authorized task through implementation and relevant verification. Make routine choices yourself; ask only when a missing decision materially changes the result or requires new authority. Prepare reviewable work before requesting any necessary final approval.
-- Current user instructions take precedence over repository and skill guidance within system and tool constraints. Preserve explicit exclusions and owner holds. Historical plans and session notes do not grant current authorization. If a file or skill blocks progress, identify its exact path and rule.
-- Keep changes small and practical. Inspect current source and Git status, preserve unrelated work, and use existing conventions. Do not add speculative abstractions, dependencies, or unrelated cleanup. Commit, push, deploy, install, and live-service changes require authorization for that action.
-- Use the reasoning effort the task needs. Follow explicit project delegation rules; otherwise use subagents only when requested, with bounded independent tasks and distinct file ownership. Batch independent reads; serialize dependent operations and conflicting edits.
-- Run meaningful checks for the changed behavior and required project gates. Avoid tests that merely repeat low-impact edits. Broaden or repeat verification only after changes, failures, or unresolved concerns. Distinguish local checks from device, browser, and live-service evidence.
-- Write concise, plain, outcome-first updates. State what changed, why, verification, and material gaps. Avoid filler and unnecessary formatting.
-- Keep durable instructions in AGENTS.md and maintained product documentation. Do not create duplicate assistant instruction files or disposable plans, transcripts, status reports, and screenshots in source directories unless requested. Preserve source, tests, fixtures, assets, licences, and operational evidence regardless of who created them.
+The repository defines no dependency-install command, build command, or application test suite. Complete the relevant document checks and report their limits. See [Contributing](CONTRIBUTING.md) for the repository map and review checklist.
