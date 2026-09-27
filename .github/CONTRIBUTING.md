@@ -7,17 +7,16 @@ This repository maintains the Magrathean UK profile and project index. Correctio
 | Path | Purpose |
 | --- | --- |
 | `README.md` | Public company profile and project links |
-| `assets/icons/` | Product artwork |
+| `assets/icons/` | Product artwork for the profile's product grid |
 | `profile-3d-contrib/` | Generated contribution graphs |
-| `github-metrics.svg` | Existing metrics artwork |
 | `.github/workflows/profile-3d.yml` | Contribution-graph generation workflow |
-| `LICENSE`, `license.md`, `TRADEMARKS.md` | Legal notice and licensing guidance |
-| `SECURITY.md` | Private reporting and existing safe-harbour terms |
+| `LICENSE` | This repository's own legal notice |
+| `.github/SECURITY.md`, `.github/SUPPORT.md`, `.github/CONTRIBUTING.md` | This repository's own policies, overriding the account defaults |
 | `AGENTS.md`, `CLAUDE.md` | Editing guidance for coding assistants |
 
 ## Propose a correction
 
-Use the [issue tracker](https://github.com/magrathean-uk/magrathean-uk/issues) for a broken link or factual correction. Include the affected section and a public source for the replacement. Read [LICENSE](LICENSE) before preparing changes; the repository is proprietary and this guide does not grant additional rights.
+Use the [issue tracker](https://github.com/magrathean-uk/magrathean-uk/issues) for a broken link or factual correction. Include the affected section and a public source for the replacement. Read [LICENSE](../LICENSE) before preparing changes; the repository is proprietary and this guide does not grant additional rights. See the account-wide [legal notice](https://github.com/magrathean-uk/.github/blob/main/LEGAL.md) for names, trade marks and how contributions are licensed.
 
 Do not include private repository names, internal endpoints, account information, credentials, or unreleased product details. Send sensitive reports through [SECURITY.md](SECURITY.md).
 

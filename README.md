@@ -1,78 +1,73 @@
-# Magrathean UK
+<p align="center">
+  <img src="assets/icons/magrathean.png" width="88" height="88" alt="">
+</p>
 
-AI adoption, Microsoft 365 security, and software for Apple platforms, Linux operations, and developer workflows.
+<h1 align="center">Magrathean</h1>
 
-## Company
+<p align="center">
+  Software for Apple platforms, Linux operations and developer workflows,<br>
+  with AI adoption and Microsoft 365 security consultancy.
+</p>
 
-- [Magrathean UK](https://magrathean.uk) - company site and software catalogue.
-- [AI Adoption](https://magrathean.uk/ai/) - AI adoption services for teams.
-- [IT Consultancy](https://magrathean.uk/it/) - Microsoft 365 security and IT consultancy.
-- [Contact](https://magrathean.uk/contact/) - direct project and consultancy enquiries.
+<p align="center">
+  <a href="https://magrathean.uk">magrathean.uk</a> ·
+  <a href="https://github.com/magrathean-uk/.github/blob/main/LEGAL.md">Legal</a> ·
+  <a href="https://magrathean.uk/privacy/">Privacy</a> ·
+  <a href="mailto:contact@magrathean.uk">contact@magrathean.uk</a>
+</p>
 
-## Products
+## Teslatlas
 
-- **[Auditex](https://auditex.hu)** - open-source Python CLI and MCP toolkit for local Microsoft 365 and Google Workspace tenant audit evidence.
-- **[Codexex](https://codexex.eu)** - Codex quota tracking and usage history for Apple devices.
-- **[Teslatlas](https://github.com/magrathean-uk/teslatlas-app)** ([site](https://teslatlas.eu)) - an independent, local-first Apple app compatible with separately installed TeslaMate and MyTeslaMate data sources. It reads history without writing back or controlling the vehicle and is not affiliated with or endorsed by the TeslaMate project. Application source is not published.
-- **[Termex](https://termexapp.eu)** - tmux-backed SSH, SFTP transfer, jump hosts, port forwarding, and session continuity.
-- **[Nodex](https://nodexapp.eu)** - agentless Linux host monitoring over SSH for metrics, services, containers, alerts, and local history.
+A private, local-first way to keep your Tesla's drives, charging and maps on your own devices.
 
-## Public repositories
+| | Project | What it is | Licence |
+| :---: | --- | --- | --- |
+| <img src="assets/icons/teslatlas.png" width="40" height="40" alt=""> | [Teslatlas](https://teslatlas.eu) | iPhone, iPad and Mac app for your drives, charging and maps | Proprietary |
+| | [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) | Self-hosted collector and sync hub for macOS and Debian | AGPL-3.0 |
+| | [Teslatlas Edge](https://github.com/magrathean-uk/teslatlas-edge) | Fleet Telemetry receiver you run for your Hub | AGPL-3.0 |
+| | [Teslatlas Protocol](https://github.com/magrathean-uk/teslatlas-protocol) | Public contracts, schemas and fixtures | Apache-2.0 |
+| | [Teslatlas Compute](https://github.com/magrathean-uk/teslatlas-compute) | Shared Rust kernel for map-tile computation | Apache-2.0 |
+| | [Swift SDK](https://github.com/magrathean-uk/teslatlas-sdk-swift) · [TypeScript SDK](https://github.com/magrathean-uk/teslatlas-sdk-typescript) | Client libraries for the Hub protocol | Apache-2.0 |
+| | [Teslatlas Viewer](https://github.com/magrathean-uk/teslatlas-viewer) | Minimal reference client | Apache-2.0 |
+| | [Home Assistant](https://github.com/magrathean-uk/teslatlas-home-assistant) | Home Assistant integration for the Hub | Apache-2.0 |
 
-Browse the projects below for their current status, source availability, licence, and support information.
+## Apps
 
-### Profile and shared standards
+| | App | What it does | Licence |
+| :---: | --- | --- | --- |
+| <img src="assets/icons/codexex.png" width="40" height="40" alt=""> | [Codexex](https://codexex.eu) | Codex quota tracking and usage history on Apple devices | Proprietary |
+| <img src="assets/icons/termex.png" width="40" height="40" alt=""> | [Termex](https://termexapp.eu) | SSH client with tmux sessions, SFTP, jump hosts and port forwarding | Proprietary |
+| <img src="assets/icons/nodex.png" width="40" height="40" alt=""> | [Nodex](https://nodexapp.eu) | Agentless Linux host monitoring over SSH | Proprietary |
+| <img src="assets/icons/teslacam.png" width="40" height="40" alt=""> | [Teslacam](https://teslacam.eu) | Browse and export dashcam and Sentry footage | Proprietary |
+| <img src="assets/icons/auditex.png" width="40" height="40" alt=""> | [Auditex](https://auditex.hu) | Local Microsoft 365 and Google Workspace audit evidence | Apache-2.0 |
+| | [Foldnex](https://github.com/magrathean-uk/foldnex) | Chrome extension that removes duplicate tabs and groups the rest | MIT |
 
-- [.github](https://github.com/magrathean-uk/.github) - organization-wide community health, security policy, and governance standards.
-- [magrathean-uk](https://github.com/magrathean-uk/magrathean-uk) - this profile and product index.
+## Developer tools
 
-### Applications and developer tools
+| | Tool | What it does | Licence |
+| :---: | --- | --- | --- |
+| <img src="assets/icons/asc-screens.png" width="40" height="40" alt=""> | [asc-screens](https://github.com/magrathean-uk/asc-screens) | App Store Connect screenshots from iPhone and iPad captures | MIT |
+| <img src="assets/icons/hostmap.png" width="40" height="40" alt=""> | [hostmap](https://github.com/magrathean-uk/hostmap) | Read-only architecture and evidence mapping for Linux hosts | MIT |
+| | [clean-development](https://github.com/magrathean-uk/clean-development) | Keeps build output and caches outside project folders | MIT |
+| | [srt-transcribe](https://github.com/magrathean-uk/srt-transcribe) | English subtitles from media files | MIT |
+| | [uncordex](https://github.com/magrathean-uk/uncordex) | Disconnect and restore a Bluetooth speaker with a saved Mac desk setup | MIT |
+| | [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) | Unofficial Icons8 asset-pack pipeline | MIT |
+| <img src="assets/icons/xauex.png" width="40" height="40" alt=""> | [xauex](https://github.com/magrathean-uk/xauex) | Gold signal runtime with risk gates and a demo-execution dashboard | Proprietary |
+| | [bmwatlas Hub](https://github.com/magrathean-uk/bmwatlas-hub) | Design-stage self-hosted BMW telemetry hub | AGPL-3.0 |
 
-- [asc-screens](https://github.com/magrathean-uk/asc-screens) - prompt-driven CLI for App Store Connect screenshots from iPhone and iPad captures.
-- [auditex](https://github.com/magrathean-uk/auditex) - open-source Python CLI and MCP toolkit for local Microsoft 365 and Google Workspace tenant audit evidence.
-- [Codexex](https://github.com/magrathean-uk/Codexex) - macOS and iOS Codex quota companion with helper-based sign-in and local usage history.
-- [clean-development](https://github.com/magrathean-uk/clean-development) - managed development caches and supported build output.
-- [foldnex](https://github.com/magrathean-uk/foldnex) - Chrome extension for removing duplicate pages and organising tabs into groups.
-- [hostmap](https://github.com/magrathean-uk/hostmap) - safe, read-only architecture and evidence mapping for Linux hosts.
-- [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) - local Icons8 asset-pack mapping, downloading, recolouring, and rendering pipeline.
-- [srt-transcribe](https://github.com/magrathean-uk/srt-transcribe) - English SRT subtitle generation from media using OpenAI transcription.
-- [Tescam](https://github.com/magrathean-uk/Tescam) - Apple app and Python CLI for reviewing and exporting TeslaCam footage.
-- [uncordex](https://github.com/magrathean-uk/uncordex) - native macOS control for disconnecting and restoring a Bluetooth speaker with a saved desk setup.
-- [xauex](https://github.com/magrathean-uk/xauex) - XAUUSD signal and cTrader demo-execution runtime with risk gates, evidence, and operator dashboard.
-
-### Teslatlas ecosystem
-
-- [teslatlas-app](https://github.com/magrathean-uk/teslatlas-app) - public product page, privacy, terms, and support for the Teslatlas Apple app; application source is not published.
-- [teslatlas-edge](https://github.com/magrathean-uk/teslatlas-edge) - user-operated Fleet Telemetry ingress for Teslatlas Hub.
-- [teslatlas-home-assistant](https://github.com/magrathean-uk/teslatlas-home-assistant) - Home Assistant integration for the public Teslatlas Hub protocol.
-- [teslatlas-hub](https://github.com/magrathean-uk/teslatlas-hub) - self-hosted multi-vehicle Tesla telemetry collector and local sync hub for macOS and Debian.
-- [teslatlas-protocol](https://github.com/magrathean-uk/teslatlas-protocol) - public protocol contracts, schemas, fixtures, and compatibility rules.
-- [teslatlas-sdk-swift](https://github.com/magrathean-uk/teslatlas-sdk-swift) - Swift client SDK for the public Teslatlas Hub protocol.
-- [teslatlas-sdk-typescript](https://github.com/magrathean-uk/teslatlas-sdk-typescript) - TypeScript client SDK for the public Teslatlas Hub protocol.
-- [teslatlas-viewer](https://github.com/magrathean-uk/teslatlas-viewer) - minimal reference client for the public Teslatlas Hub protocol.
-
-### BMW
-
-- [bmwatlas-hub](https://github.com/magrathean-uk/bmwatlas-hub) - design-stage, self-hosted BMW telemetry hub; the repository documents the intended boundary and does not yet contain a runnable collector.
-
-## Profile maintenance
-
-For corrections to this page, see [Contributing](CONTRIBUTING.md). For product help or enquiries, see [Support](SUPPORT.md). Report sensitive security concerns through [Security](SECURITY.md).
-
-## Contribution graph
+<details>
+<summary>Contribution graph</summary>
 
 ![3D contribution graph](profile-3d-contrib/profile-season-animate.svg)
 
-## Legal
-
-Copyright (c) 2026 Magrathean UK Ltd. All rights reserved.
-
-This repository is the GitHub profile for Magrathean UK Ltd. The contents of this repository are proprietary; see [`LICENSE`](./LICENSE) for the full notice. Each individual product or codebase listed above is governed by its own licence - consult the `LICENSE` or `LICENSE.md` file in the relevant product repository.
-
-The Magrathean UK name and the product and project names shown on this profile are trade marks or unregistered trade marks of Magrathean UK Ltd. and may not be used to imply affiliation, endorsement, or sponsorship without prior written permission. References on this profile to third-party trade marks (Apple, Microsoft, Tesla, BMW, OpenAI, Linux, Rust, and others) are for descriptive purposes only and remain the property of their respective owners. Magrathean UK Ltd. is not affiliated with, endorsed by, or sponsored by any of those third parties.
-
-For licensing or commercial enquiries, email <contact@magrathean.uk>.
+</details>
 
 ---
 
-Magrathean UK Ltd. is a company registered in England and Wales (Company No. 16955343) with registered office at 16 Caledonian Court West Street, Watford, England, WD17 1RY.
+<sub>
+MAGRATHEAN UK LTD · company number 16955343 · England and Wales.
+Teslatlas and Teslacam are independent and are not affiliated with Tesla, Inc.; bmwatlas Hub
+is not affiliated with BMW AG. See the <a href="https://github.com/magrathean-uk/.github/blob/main/LEGAL.md">legal notice</a>.
+Corrections: <a href=".github/CONTRIBUTING.md">contributing</a> ·
+<a href=".github/SECURITY.md">security</a> · <a href=".github/SUPPORT.md">support</a>.
+</sub>
