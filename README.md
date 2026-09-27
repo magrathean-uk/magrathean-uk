@@ -38,7 +38,7 @@ A private, local-first way to keep your Tesla's drives, charging and maps on you
 | <img src="assets/icons/codexex.png" width="40" height="40" alt=""> | [Codexex](https://codexex.eu) | Codex quota tracking and usage history on Apple devices | Proprietary |
 | <img src="assets/icons/termex.png" width="40" height="40" alt=""> | [Termex](https://termexapp.eu) | SSH client with tmux sessions, SFTP, jump hosts and port forwarding | Proprietary |
 | <img src="assets/icons/nodex.png" width="40" height="40" alt=""> | [Nodex](https://nodexapp.eu) | Agentless Linux host monitoring over SSH | Proprietary |
-| <img src="assets/icons/teslacam.png" width="40" height="40" alt=""> | [Teslacam](https://teslacam.eu) | Browse and export dashcam and Sentry footage | Proprietary |
+| <img src="assets/icons/teslacam.png" width="40" height="40" alt=""> | [Tescam](https://teslacam.eu) | Browse and export dashcam and Sentry footage | GPL-3.0 |
 | <img src="assets/icons/auditex.png" width="40" height="40" alt=""> | [Auditex](https://auditex.hu) | Local Microsoft 365 and Google Workspace audit evidence | Apache-2.0 |
 | | [Foldnex](https://github.com/magrathean-uk/foldnex) | Chrome extension that removes duplicate tabs and groups the rest | MIT |
 
@@ -66,7 +66,7 @@ A private, local-first way to keep your Tesla's drives, charging and maps on you
 
 <sub>
 MAGRATHEAN UK LTD · company number 16955343 · England and Wales.
-Teslatlas and Teslacam are independent and are not affiliated with Tesla, Inc.; bmwatlas Hub
+Teslatlas and Tescam are independent and are not affiliated with Tesla, Inc.; bmwatlas Hub
 is not affiliated with BMW AG. See the <a href="https://github.com/magrathean-uk/.github/blob/main/LEGAL.md">legal notice</a>.
 Corrections: <a href=".github/CONTRIBUTING.md">contributing</a> ·
 <a href=".github/SECURITY.md">security</a> · <a href=".github/SUPPORT.md">support</a>.
