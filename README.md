@@ -23,8 +23,8 @@ A private, local-first way to keep your Tesla's drives, charging and maps on you
 | | Project | What it is | Licence |
 | :---: | --- | --- | --- |
 | <img src="assets/icons/teslatlas.png" width="40" height="40" alt=""> | [Teslatlas](https://teslatlas.eu) | iPhone, iPad and Mac app for your drives, charging and maps | Proprietary |
-| | [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) | Self-hosted collector and sync hub for macOS and Debian | AGPL-3.0 |
-| | [Teslatlas Edge](https://github.com/magrathean-uk/teslatlas-edge) | Fleet Telemetry receiver you run for your Hub | AGPL-3.0 |
+| | [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) | Self-hosted collector and sync hub for macOS and Debian | AGPL-3.0-only |
+| | [Teslatlas Edge](https://github.com/magrathean-uk/teslatlas-edge) | Fleet Telemetry receiver you run for your Hub | AGPL-3.0-only |
 | | [Teslatlas Protocol](https://github.com/magrathean-uk/teslatlas-protocol) | Public contracts, schemas and fixtures | Apache-2.0 |
 | | [Teslatlas Compute](https://github.com/magrathean-uk/teslatlas-compute) | Shared Rust kernel for map-tile computation | Apache-2.0 |
 | | [Swift SDK](https://github.com/magrathean-uk/teslatlas-sdk-swift) · [TypeScript SDK](https://github.com/magrathean-uk/teslatlas-sdk-typescript) | Client libraries for the Hub protocol | Apache-2.0 |
@@ -38,7 +38,7 @@ A private, local-first way to keep your Tesla's drives, charging and maps on you
 | <img src="assets/icons/codexex.png" width="40" height="40" alt=""> | [Codexex](https://codexex.eu) | Codex quota tracking and usage history on Apple devices | Proprietary |
 | <img src="assets/icons/termex.png" width="40" height="40" alt=""> | [Termex](https://termexapp.eu) | SSH client with tmux sessions, SFTP, jump hosts and port forwarding | Proprietary |
 | <img src="assets/icons/nodex.png" width="40" height="40" alt=""> | [Nodex](https://nodexapp.eu) | Agentless Linux host monitoring over SSH | Proprietary |
-| <img src="assets/icons/teslacam.png" width="40" height="40" alt=""> | [Tescam](https://teslacam.eu) | Browse and export dashcam and Sentry footage | GPL-3.0 |
+| <img src="assets/icons/teslacam.png" width="40" height="40" alt=""> | [Tescam](https://teslacam.eu) | Browse and export dashcam and Sentry footage | GPL-3.0-only |
 | <img src="assets/icons/auditex.png" width="40" height="40" alt=""> | [Auditex](https://auditex.hu) | Local Microsoft 365 and Google Workspace audit evidence | Apache-2.0 |
 | | [Foldnex](https://github.com/magrathean-uk/foldnex) | Chrome extension that removes duplicate tabs and groups the rest | MIT |
 
@@ -53,7 +53,7 @@ A private, local-first way to keep your Tesla's drives, charging and maps on you
 | | [uncordex](https://github.com/magrathean-uk/uncordex) | Disconnect and restore a Bluetooth speaker with a saved Mac desk setup | MIT |
 | | [icons8-nonapi-downloader](https://github.com/magrathean-uk/icons8-nonapi-downloader) | Unofficial Icons8 asset-pack pipeline | MIT |
 | <img src="assets/icons/xauex.png" width="40" height="40" alt=""> | [xauex](https://github.com/magrathean-uk/xauex) | Gold signal runtime with risk gates and a demo-execution dashboard | Proprietary |
-| | [bmwatlas Hub](https://github.com/magrathean-uk/bmwatlas-hub) | Design-stage self-hosted BMW telemetry hub | AGPL-3.0 |
+| | [bmwatlas Hub](https://github.com/magrathean-uk/bmwatlas-hub) | Design-stage self-hosted BMW telemetry hub | AGPL-3.0-only |
 
 <details>
 <summary>Contribution graph</summary>
