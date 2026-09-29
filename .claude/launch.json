@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "magrathean-site",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "../magrathean/site", "run", "dev"],
+      "runtimeExecutable": "clean-development",
+      "runtimeArgs": ["run", "--session", "session-only", "--", "npm", "--prefix", "../magrathean/site", "run", "dev"],
       "port": 3005
     }
   ]
