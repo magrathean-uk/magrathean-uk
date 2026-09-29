@@ -34,4 +34,4 @@ No dependency installation, application build, or local server is needed. The ex
 
 The existing workflow runs on a daily schedule, manual dispatch, and changes to its own workflow file on `main`. It uses `yoshi389111/github-profile-3d-contrib@latest` with a repository token and writes generated output back to the repository. A README-only change does not trigger its push path filter. Keep workflow and generated-artwork changes out of unrelated prose corrections.
 
-For development across the linked software projects, consider [Clean Development](https://github.com/magrathean-uk/clean-development) to organise supported caches and build output.
+Development across the linked software projects follows [Clean Development](https://github.com/magrathean-uk/clean-development), which organises supported caches and build output. See the mandatory "Clean development" section in [AGENTS.md](../AGENTS.md).
