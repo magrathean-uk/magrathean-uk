@@ -16,13 +16,13 @@
   <a href="mailto:contact@magrathean.uk">contact@magrathean.uk</a>
 </p>
 
-## Teslatlas
+## Tesatlas App and Teslatlas Hub
 
 A private, local-first way to keep your Tesla's drives, charging and maps on your own devices.
 
 | | Project | What it is | Licence |
 | :---: | --- | --- | --- |
-| <img src="assets/icons/teslatlas.png" width="40" height="40" alt=""> | [Teslatlas](https://teslatlas.eu) | iPhone, iPad and Mac app for your drives, charging and maps | Proprietary |
+| <img src="assets/icons/teslatlas.png" width="40" height="40" alt=""> | [Tesatlas](https://magrathean.uk/solutions/tesatlas/app/) | iPhone, iPad and Mac app for your drives, charging and maps | Proprietary |
 | | [Teslatlas Hub](https://github.com/magrathean-uk/teslatlas-hub) | Self-hosted collector and sync hub for macOS and Debian | AGPL-3.0-only |
 | | [Teslatlas Edge](https://github.com/magrathean-uk/teslatlas-edge) | Fleet Telemetry receiver you run for your Hub | AGPL-3.0-only |
 | | [Teslatlas Protocol](https://github.com/magrathean-uk/teslatlas-protocol) | Public contracts, schemas and fixtures | Apache-2.0 |
@@ -66,7 +66,7 @@ A private, local-first way to keep your Tesla's drives, charging and maps on you
 
 <sub>
 MAGRATHEAN UK LTD · company number 16955343 · England and Wales.
-Teslatlas and Tescam are independent and are not affiliated with Tesla, Inc.; bmwatlas Hub
+Tesatlas, Teslatlas Hub and Tescam are independent and are not affiliated with Tesla, Inc.; bmwatlas Hub
 is not affiliated with BMW AG. See the <a href="https://github.com/magrathean-uk/.github/blob/main/LEGAL.md">legal notice</a>.
 Corrections: <a href=".github/CONTRIBUTING.md">contributing</a> ·
 <a href=".github/SECURITY.md">security</a> · <a href=".github/SUPPORT.md">support</a>.
