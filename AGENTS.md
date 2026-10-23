@@ -1,41 +1,25 @@
-# Repository guide
+# Repository context
 
-This repository holds the Magrathean UK GitHub profile and public project index. It contains Markdown, artwork, and a contribution-graph workflow, with no application package or local build command.
+This repository holds the Magrathean UK GitHub profile and public project index. It contains Markdown, artwork and a contribution-graph workflow, with no application package or local build command.
 
-Complete authorized work and the necessary safe local steps through the relevant checks. Make routine decisions without repeated permission requests. Use bounded delegation for independent work when it helps, with clear ownership.
+## Repository map
 
-## Editing boundaries
+- `README.md`: public company and product index.
+- `assets/icons/`: product artwork used by the grid.
+- `profile-3d-contrib/`: generated contribution-graph asset.
+- `.claude/launch.json`: a sibling website's launch target.
+- [.github/CONTRIBUTING.md](.github/CONTRIBUTING.md): repository map and document review references.
+- `LICENSE` and `.github/SECURITY.md`: legal and security information.
+- [Account legal notice](https://github.com/magrathean-uk/.github/blob/main/LEGAL.md): names and trade marks.
 
-- Keep `README.md` focused on the public company and project index. Verify that each listed repository and product link is publicly reachable before adding it.
-- Describe product status from its own current public documentation. Do not infer source availability, readiness, or licence terms from a repository name.
-- Preserve exact legal grants, ownership notices and attribution in `LICENSE` and `.github/SECURITY.md`. The account-wide [legal notice](https://github.com/magrathean-uk/.github/blob/main/LEGAL.md) covers names and trade marks; do not duplicate it here.
-- Legal files (`LICENSE`, `NOTICE`, `docs/legal/`, contributor terms, copyright and
-  attribution strings) are owner-controlled: change them only on the owner's explicit
-  instruction.
-- Keep private projects, credentials, internal infrastructure, and unreleased work out of public content.
-- Treat `profile-3d-contrib/` as a generated asset. Do not regenerate it for a prose edit. Keep workflow changes relevant to the task.
-- Use an icon from `assets/icons/` in the product grid only when one exists for that product; otherwise leave the icon cell blank rather than adding new artwork.
-- `.claude/launch.json` targets a sibling website. It is not a preview command for this repository.
+## Document checks
 
-## Validation
+`git diff --check` checks patch whitespace. Markdown previews, relative-link checks, image previews and signed-out public-link checks cover different aspects of the public profile. There is no dependency-install command, application build or application test suite in this repository.
 
-Run `git diff --check` for working-tree edits. Preview changed Markdown, check relative links and images, and open changed public links without relying on a signed-in account. Record any unavailable link instead of claiming it was verified.
+## URL migration context
 
-The repository defines no dependency-install command, build command, or application test suite. Complete the relevant document checks and report their limits. See [Contributing](.github/CONTRIBUTING.md) for the repository map and review checklist.
+[NEXT-RELEASE-URLS.md](NEXT-RELEASE-URLS.md) describes the release URL migration: product sites use `https://magrathean.uk/solutions/<slug>/` and support addresses use `contact+<slug>@magrathean.uk`.
 
-## Models
+## Development environment
 
-Claude Code (Fable, or Opus 5.5, for cross-cutting work and review; Sonnet 5.5 for routine implementation; Haiku 5.5 for exploration) or Codex `gpt-6.1-sol` (`gpt-6-luna` for swarm exploration). Keep changes small; distinguish local checks from device and live-service evidence.
-
-<!-- clean-development-policy:v4 (clean-development 0.6.0; canonical: bolyki-dev/clean-development/docs/policy-snippet.md) -->
-## Clean development (mandatory)
-
-- Storage is routed for you: every zsh loads `~/dev/machine/env.zsh`; hooks pin the mode per session (`$CLEAN_DEV_MODE` is `external` when the 4TB is attached, else `internal`). Do not wrap commands, override or unset the routed variables.
-- Temp files go to `$TMPDIR` (session scratch, deleted at session end), throwaway build output to `$CLEAN_DEV_BUILDS`, caches wherever their variables point. Never write caches, builds or temp files into `~`, `~/dev` or this repo outside its git-ignored build directories.
-- Internal mode: before any download or build likely over 5 GB, stop and ask G (suggest waiting for the 4TB).
-- This repo's `.clean-development.json` (schema v2) lists its git-ignored `buildDirs`/`depDirs`; keep it accurate when the build layout changes.
-- No dot-folders in `~` or `~/dev`. `.env` files stay git-ignored; read them only when the task needs them; never commit them.
-
-## Pending URL migration
-
-The next release must apply [NEXT-RELEASE-URLS.md](NEXT-RELEASE-URLS.md): product sites moved to `https://magrathean.uk/solutions/<slug>/` and support addresses to `contact+<slug>@magrathean.uk`. Remove this section with that file once released.
+The machine's `~/dev/machine/env.zsh` provides routed storage variables. `$TMPDIR` identifies session scratch, `$CLEAN_DEV_BUILDS` identifies throwaway build output, and cache variables identify dependency caches. `.clean-development.json` records repository build and dependency directories.
