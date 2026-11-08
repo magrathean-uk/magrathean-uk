@@ -1,8 +1,6 @@
 <h1 align="center">Magrathean</h1>
 
-<p align="center">
-  I make Apple apps and local tools, and teach agentic AI.
-</p>
+
 
 <p align="center">
   <a href="https://magrathean.uk">magrathean.uk</a>
