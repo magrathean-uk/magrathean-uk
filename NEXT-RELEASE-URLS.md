@@ -23,9 +23,4 @@ their original URLs when the value is part of the record.
 
 ## References found in this repository
 
-- `README.md:25` — `| <img src="assets/icons/teslatlas.png" width="40" height="40" alt=""> | [Teslatlas](https://teslatlas.eu) | iPhone, iPad and Mac app for yo`
-- `README.md:38` — `| <img src="assets/icons/codexex.png" width="40" height="40" alt=""> | [Codexex](https://codexex.eu) | Codex quota tracking and usage histor`
-- `README.md:39` — `| <img src="assets/icons/termex.png" width="40" height="40" alt=""> | [Termex](https://termexapp.eu) | SSH client with tmux sessions, SFTP, `
-- `README.md:40` — `| <img src="assets/icons/nodex.png" width="40" height="40" alt=""> | [Nodex](https://nodexapp.eu) | Agentless Linux host monitoring over SSH`
-- `README.md:41` — `| <img src="assets/icons/teslacam.png" width="40" height="40" alt=""> | [Tescam](https://teslacam.eu) | Browse and export dashcam and Sentry`
-- `README.md:42` — `| <img src="assets/icons/auditex.png" width="40" height="40" alt=""> | [Auditex](https://auditex.hu) | Local Microsoft 365 and Google Worksp`
+None remain: the profile README no longer lists products or their former URLs.
